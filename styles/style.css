@@ -1,0 +1,67 @@
+/* multi selector
+p, li, h1 
+{
+    color: #4267B2;
+    width: 500px;
+    border: 1px solid black;
+}
+*/
+html 
+{
+    font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #4267B2
+}
+
+body 
+{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #4267B2;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #ffffff;
+    text-shadow: 3px 3px 1px rgb(150, 150, 150);
+  }
+  
+p, li 
+{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+}
+/*
+    elements with custom_id 
+    <p id="my-id">
+*/
+#custom_id 
+{
+    color: #4267B2;
+    width: 500px;
+    border: 1px solid black;
+}
+
+/*
+    elements with my_class
+    <p class="my-class">
+*/
+.my_class
+{
+    color: #4267B2;
+    width: 500px;
+    border: 1px solid black;
+}
+
+/* and many more! */
